@@ -1,0 +1,16 @@
+<html>
+	<body>
+		<form action = '' method = "post">
+			<label> Search </label> <br>
+			<input type = "text" name = "term" value = "<%= @term %>"> <br> 
+
+			<input type = "submit" value = "Search">
+		</form>
+		<div id = "out">
+			<%if @out %>
+				<%=@out%>
+			<%end%>
+		</div>
+	</body>
+
+</html>
